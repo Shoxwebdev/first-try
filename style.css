@@ -1,0 +1,15 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: 10rem;
+    align-items: center;
+    /* justify-items: self-end; */
+    background: rgba(0,0,0, 0.1);
+}
+
